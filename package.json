@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "static-site",
   "version": "1.0.0",
   "scripts": {
@@ -6,5 +7,24 @@
   },
   "dependencies": {
     "serve": "^14.2.1"
+=======
+  "name": "react-heroku-app",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.2"
+>>>>>>> 88fd9d50805d6541976f7870c959db67d30a20c0
   }
 }
